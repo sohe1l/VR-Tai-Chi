@@ -4,10 +4,8 @@ using SQLite4Unity3d;
 
 public class Level 
 {
-
     const int MODE_TRANING = 0;
     const int MODE_SCORED = 1;
-
 
     [PrimaryKey, AutoIncrement]
     public int Id { get; set; }
